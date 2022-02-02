@@ -1,0 +1,6 @@
+
+
+# TENSORFLOW
+--find-links https://cf.tf.kmtea.eu/whl/stable.html  # SEE https://tf.kmtea.eu/
+tensorflow ~= 2.7.0; sys_platform != 'darwin'
+tensorflow-macos ~= 2.7.0; sys_platform == 'darwin'
